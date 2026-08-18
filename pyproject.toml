@@ -3,7 +3,7 @@ name = "demand-forecast"
 version = "0.1.0"
 description = "店頭欠品を考慮した売上補正ロジック (PoC) — design/欠品補正改.md 準拠"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
     "duckdb>=1.0.0",
 ]
@@ -16,7 +16,7 @@ dev = [
 
 [tool.ruff]
 line-length = 100
-target-version = "py312"
+target-version = "py313"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
